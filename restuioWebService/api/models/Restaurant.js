@@ -42,11 +42,7 @@ module.exports = {
           via: 'idRestaurant'
       }
       
-      /*contacts: {
-          collection: 'Contact',
-          via: 'idRestaurant'
-      }*/
-      
+
 
   }
 };

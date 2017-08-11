@@ -1,0 +1,9 @@
+para eliminar la base temporal de sails, nos dirigimos a .temp en elfolder root y eliminamos el archivo localDiskDb.db
+
+
+http://localhost:1337/categorie?name=Cafeteria
+
+http://localhost:1337/restaurant?name=Cyrano&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/Cyrano.jpg&description=Especialidad de la casa: Cappuccino italiano.&categorie=1
+http://localhost:1337/location?address=Av. González Suárez (Entre Jacinto Bejarano y Gonnessiat)
+Quito&lat=-0.1964681859274228&lng=-78.4785937739106&idRestaurant=1
+http://localhost:1337/contact?phone=0996524356&facebook=cyranoQuito&twitter=@cyranoQuito&idRestaurant=1
