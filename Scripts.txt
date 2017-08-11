@@ -1,9 +1,59 @@
 para eliminar la base temporal de sails, nos dirigimos a .temp en elfolder root y eliminamos el archivo localDiskDb.db
+restuarantes
+one - one
+location
+contact
+
+categoria (padre)
+
+realizar npm install cuando se descarga el proyecto para instalar todas las dependencias.
 
 
-http://localhost:1337/categorie?name=Cafeteria
+Categorias:
 
-http://localhost:1337/restaurant?name=Cyrano&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/Cyrano.jpg&description=Especialidad de la casa: Cappuccino italiano.&categorie=1
-http://localhost:1337/location?address=Av. González Suárez (Entre Jacinto Bejarano y Gonnessiat)
-Quito&lat=-0.1964681859274228&lng=-78.4785937739106&idRestaurant=1
-http://localhost:1337/contact?phone=0996524356&facebook=cyranoQuito&twitter=@cyranoQuito&idRestaurant=1
+https://rest-uio-ws-fabriram20.c9users.io/categorie?name=Cafeteria
+https://rest-uio-ws-fabriram20.c9users.io/categorie?name=Restaurante
+https://rest-uio-ws-fabriram20.c9users.io/categorie?name=Bar
+https://rest-uio-ws-fabriram20.c9users.io/categorie?name=Pastelería
+https://rest-uio-ws-fabriram20.c9users.io/categorie?name=Pizzeria
+
+
+Restaurantes: 
+
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Cyrano&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/Cyrano.jpg&description=Especialidad de la casa: Cappuccino italiano.&categorie=1
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Cafe Jaru&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/cafe2.jpg&description=&categorie=1
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Cafe en Cuba&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/cafe3.jpg&description=&categorie=1
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Cosa Nostra Trattoria&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/rest1.jpg&description=&categorie=2
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Segundo Muelle&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/rest2.jpg&description=&categorie=2
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Aknur Obe Bar&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/bar1.jpg&description=&categorie=3
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Daikiri bar&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/bar2.jpg&description=&categorie=3
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Panaderia la Union&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/pan1.jpg&description=&categorie=4
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Delicias&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/pan2.jpg&description=&categorie=4
+https://rest-uio-ws-fabriram20.c9users.io/restaurant?name=Il Padrino Pizzas&img =https://github.com/fabriram20/RestUIO/blob/master/ImagesServer/pizzeria1.jpg&description=&categorie=5
+
+
+
+Location
+https://rest-uio-ws-fabriram20.c9users.io/location?address=Av. González Suárez (Entre Jacinto Bejarano y Gonnessiat)Quito&lat=-0.1964681859274228&lng=-78.4785937739106&idRestaurant=1
+https://rest-uio-ws-fabriram20.c9users.io/location?address=Ignacio de Veintimilla Quito 170143&lat=-0.207030&lng=-78.490975&idRestaurant=2
+https://rest-uio-ws-fabriram20.c9users.io/location?address=Isabel La Católica, Quito 170109&lat=-0.206837&lng=-78.486190&idRestaurant=3
+https://rest-uio-ws-fabriram20.c9users.io/location?address=Madrid, Quito 554621&lat=-0.209326&lng=-78.484752&idRestaurant=4
+https://rest-uio-ws-fabriram20.c9users.io/location?address=Av. Gran Colombia Quito&lat=-0.211805&lng=-78.493378&idRestaurant=5
+https://rest-uio-ws-fabriram20.c9users.io/location?address=Ave 12 de Octubre, Quito 170143&lat=-0.209337&lng=-78.492316&idRestaurant=6
+https://rest-uio-ws-fabriram20.c9users.io/location?address=Av. 6 Diciembre n24-399 y Luis Cordero, Quito 170525&lat=-0.203050&lng=-78.487338&idRestaurant=7
+https://rest-uio-ws-fabriram20.c9users.io/location?address=Gonzalez Suarez Quito 170517&lat=-0.198823&lng=-78.479541&idRestaurant=8
+https://rest-uio-ws-fabriram20.c9users.io/location?address=La Vicentina Luis Godin, Quito 170136&lat=-0.216600&lng=-78.489379&idRestaurant=9
+https://rest-uio-ws-fabriram20.c9users.io/location?address=Ignacio de Veintimilla y Leonidas Plaza Gutierrez, Quito 170143&lat=-0.206338&lng=-78.491359&idRestaurant=10
+
+
+Contacto
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0996524356&facebook=cyranoQuito&twitter=@cyranoQuito&idRestaurant=1
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0946524356&facebook=jaruQuito&twitter=@jaruQuito&idRestaurant=2
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0916521276&facebook=cubaQuit0&twitter=@cubaQuito&idRestaurant=3
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0953241326&facebook=CosaNostra&twitter=@CosaNostraQuito&idRestaurant=4
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0903154325&facebook=SegundoMuelleFb&twitter=@SegundomuelleQuito&idRestaurant=5
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0990654552&facebook=aknurBar&twitter=@aknurQuito&idRestaurant=6
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0935960356&facebook=daikiri&twitter=@DaikiriQuito&idRestaurant=7
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0979524512&facebook=la union&twitter=@UNION ec&idRestaurant=8
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0969525234&facebook=delicatecen&twitter=@DeliciaQuito&idRestaurant=9
+https://rest-uio-ws-fabriram20.c9users.io/contact?phone=0945965236&facebook=il Padrino&twitter=@PadrinoQuito&idRestaurant=10
